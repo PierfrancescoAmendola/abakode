@@ -3,3 +3,4 @@ dist
 .DS_Store
 # local preview/screenshot config with absolute paths
 .claude
+*.tsbuildinfo
