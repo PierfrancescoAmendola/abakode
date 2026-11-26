@@ -37,7 +37,7 @@ export function Hero({ isRevealed, isHidden }: HeroProps) {
         ))}
       </h1>
       <div className="bio">
-        <img className="bio-logo reveal" src="/logo.svg" alt={site.owner} width={643} height={158} />
+        <img className="bio-logo reveal" src="logo.svg" alt={site.owner} width={643} height={158} />
         <p className="reveal">{site.bio}</p>
       </div>
       <p className="copy reveal">

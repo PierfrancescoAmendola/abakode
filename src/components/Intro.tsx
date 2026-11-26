@@ -23,7 +23,7 @@ export function Intro({ onDone }: IntroProps) {
     const canvas = canvasRef.current!
     const renderer = new THREE.WebGLRenderer({ canvas, antialias: false })
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
-    const iris = new THREE.TextureLoader().load('/iris.jpg')
+    const iris = new THREE.TextureLoader().load('iris.jpg')
     iris.minFilter = THREE.LinearMipmapLinearFilter
     iris.anisotropy = 8
     const uniforms = {
